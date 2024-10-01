@@ -1,0 +1,19 @@
+body {
+    color:aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:medium;
+    background-color: rgb(6, 78, 104);
+}
+
+#una{
+    color: rgb(67, 0, 100);
+    font-size: x-large;
+}
+
+.pangalwa{
+    color: rgb(127, 33, 148);
+}
+
+.pangatlo {
+    background-color: rgb(0, 2, 135);
+}
