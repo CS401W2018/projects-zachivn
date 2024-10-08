@@ -36,3 +36,14 @@ nav ul li a.active {
 .tour-list li {
     list-style-image: url('images/custom-bullet.png');
 }
+
+body {
+    background-image: url('Philippines.webp');
+    background-repeat: repeat-x; /* or repeat-y */
+}
+
+main {
+    background-image: url('Philippines.webp');
+    background-position: right;
+    background-repeat: no-repeat;
+}
