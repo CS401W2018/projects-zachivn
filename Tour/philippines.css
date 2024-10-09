@@ -2,17 +2,17 @@ body {
     font-family: 'Times New Roman', Times, serif, sans-serif;
     background-image: url('sky.jpg');
     background-repeat: repeat;
-    color: #2e8b57; /* Changed to a sea green for a natural feel */
+    color: #2e8b57;
 }
 
 header {
     text-align: center;
     padding: 30px;
-    color: #556b2f; /* Changed to dark olive green to resemble tree foliage */
+    color: #556b2f;
 }
 
 nav {
-    background-color: #4b5320; /* Changed to mossy green to mimic a forest shade */
+    background-color: #4b5320;
 }
 
 nav ul {
@@ -26,7 +26,7 @@ nav ul li {
 }
 
 nav a {
-    color: #f0e68c; /* Changed to khaki, a warm earthy tone */
+    color: #f0e68c;
     text-decoration: none;
 }
 
@@ -36,7 +36,7 @@ nav a:hover {
 
 .current {
     font-weight: bold;
-    color: #ffd700; /* Kept yellow, resembling the sunlight */
+    color: #ffd700;
 }
 
 .pelepens {
@@ -51,14 +51,14 @@ nav a:hover {
 
 main {
     padding: 20px;
-    background-color: #f5f5dc; /* Changed to beige, a neutral earth tone */
+    background-color: #f5f5dc;
 }
 
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #6b8e23; /* Changed to olive drab, representing nature and plants */
-    color: #f5deb3; /* Changed to wheat color, reminiscent of sand or dried grass */
+    background-color: #6b8e23;
+    color: #f5deb3;
     position: relative;
     bottom: 0;
     width: 100%;
