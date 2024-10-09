@@ -1,49 +1,65 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    background-image: url('sky.jpg');
+    background-repeat: repeat;
+    color: #2e8b57; /* Changed to a sea green for a natural feel */
 }
 
-header, footer {
-    background-color: #333;
-    color: white;
+header {
     text-align: center;
-    padding: 1rem;
+    padding: 30px;
+    color: #556b2f; /* Changed to dark olive green to resemble tree foliage */
+}
+
+nav {
+    background-color: #4b5320; /* Changed to mossy green to mimic a forest shade */
 }
 
 nav ul {
     list-style-type: none;
-    background-color: #555;
     padding: 0;
-    text-align: center;
 }
 
 nav ul li {
     display: inline;
-    margin-right: 10px;
+    margin-right: 15px;
 }
 
-nav ul li a {
-    color: white;
+nav a {
+    color: #f0e68c; /* Changed to khaki, a warm earthy tone */
     text-decoration: none;
-    padding: 0.5rem;
 }
 
-nav ul li a.active {
-    background-color: #f90;
+nav a:hover {
+    text-decoration: underline;
 }
 
-.tour-list li {
-    list-style-image: url('images/custom-bullet.png');
+.current {
+    font-weight: bold;
+    color: #ffd700; /* Kept yellow, resembling the sunlight */
 }
 
-body {
-    background-image: url('Philippines.webp');
-    background-repeat: repeat-x; /* or repeat-y */
+.pelepens {
+    list-style-image: url(woww.jfif);
+}
+
+.logo {
+    background-position: right;
+    background-image: url(Puerto_Princesa_city_seal.svg.png); 
+    background-repeat: no-repeat;
 }
 
 main {
-    background-image: url('Philippines.webp');
-    background-position: right;
-    background-repeat: no-repeat;
+    padding: 20px;
+    background-color: #f5f5dc; /* Changed to beige, a neutral earth tone */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #6b8e23; /* Changed to olive drab, representing nature and plants */
+    color: #f5deb3; /* Changed to wheat color, reminiscent of sand or dried grass */
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }

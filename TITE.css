@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('leaves.jpg');
+    background-repeat: repeat;
+    color: #ffffff;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.current {
+    font-weight: bold;
+    color: rgb(255, 255, 0);
+}
+
+.pelepens {
+    list-style-image: url(pin.png);
+}
+
+.logo {
+    background-position: right;
+    background-image: url(Puerto_Princesa_city_seal.svg.png); 
+    background-repeat: no-repeat;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
