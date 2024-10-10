@@ -1,0 +1,30 @@
+body {
+    font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif;
+    background-image: url(papi.jpg);
+    background-color: #87CEEB;
+}
+
+#wrapper {
+    width: 600px;
+    margin: auto;
+    background-color: #E0FFFF;
+    border: thin solid #4682B4;
+}
+
+header {
+    background-color: #ADD8E6;
+    width: 300px;
+    margin: 30px 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 0;
+    color: #1E90FF;
+}
+
+nav {
+    background-color: #B0E0E6;
+    height: 200px;
+    margin-top: 40px;
+}
