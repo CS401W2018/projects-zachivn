@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+aside {
+    background-color: #f4f4f4;
+    padding: 30px;
+    width: 25%;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+}
+
+.profile-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.card {
+    background-color: #f9f9f9;
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+}
+
+.card img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 15px;
+}
+
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+
+header {
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 1px;
+}
+
+
+.mainrow {
+    display: flex;
+    flex: 1;
+}
