@@ -2,31 +2,64 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=>, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
     <link rel="stylesheet" href="form.css">
 </head>
 <body>
     <header>
         <h1>Web Design</h1>
     </header>
-        <main>
-            <form action="processing.html" method="post">
-                First Name: <input type="text" name="first"><br>
-                Lasr Name: <input type="text" name="last"><br>
-                Password: <input type="password" name="pass"><br>
-                <input type="checkbox" name="remember" checked> Remember Me<br>
+    <main>
+        <form action="#" method="post">
+        <fieldset>
+            <legend>Sign Up</legend>
+            <div class="form-row">
+                <label for="fname">First Name:</label>
+                <input type="text" name="first" value="Zach" required>
+            </div>
+            <div class="form-row">
+                <label for="lname">Last Name:</label>
+                <input type="text" id="lname" name="last" placeholder="Last Name">
+            </div>
+            <div class="form-row">
+                <label for="pass">Password:</label>
+                <input type="password" name="pass" id="pass">
+            </div>
+            <div class="check-row">
+                <div class="spacer"></div>
+                <label>
+                    <input type="checkbox" name="remember" checked>
+                    Remember
+                </label>
+            </div>
+            <div class="form-row">
+                <label for="state">State</label>
+                <select name="state" id="state">
+                    <option value="blank"></option>
+                    <option value="CA">California</option>
+                    <option value="HI">Hawaii</option>
+                    <option value="UT">Utah</option>
+                </select>
+            </div>
+            <div class="form-row">
+                <label for="comments">Comments</label>
+                <textarea name="comments" id="comments"></textarea>
+            </div>
+            <div class="form-row">
                 Class:
-                <input type="radio" name="class" value="freshman">Freshman<br>
-                <input type="radio" name="class" value="freshman">Sophomore<br>
-                <input type="radio" name="class" value="freshman">Junior<br>
-                <input type="radio" name="class" value="freshman">Senior<br>
-                Comments: <textarea name="comments">Put your commen here</textarea>
+                <label><input type="radio" name="class" value="freshman">Freshman</label>
+                <label><input type="radio" name="class" value="sophomore">Sophomore</label>
+            </div>
+            <div class="form-row">
+                <div class="spacer"></div>
                 <input type="submit">
-            </form>
-        </main>
+            </div>
+        </fieldset>
+        </form>
+    </main>
     <footer>
-        <p>&copy; 2024 Zach Cauilan</p>
+        <p>&copy;2024 Third Baliwas</p>
     </footer>
 </body>
 </html>
