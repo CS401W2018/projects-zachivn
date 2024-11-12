@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Culture Night Forms</title>
+    <link rel="stylesheet" href="forms1.css">
+</head>
+<body>
+    <header>
+        <h1>Culture Night</h1>
+    </header>
+
+    <main>
+        <form action="#" method="wow">
+            <fieldset>
+                <legend>Personal Information</legend>
+                
+                <div class="group">
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+
+                <div class="group">
+                    <label for="birthdate">Birthdate:</label>
+                    <input type="date" id="birthdate" name="birthdate" required>
+                </div>
+
+                <div class="group">
+                    <label for="Phone">Phone Number:</label>
+                    <textarea id="Phone" name="Phone"></textarea>
+                </div>
+
+                <div class="group">
+                    <label>Gender:</label>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                </div>
+
+                <div class="form">
+                    <label for="Club">Club:</label>
+                    <select id="Club" name="Club">
+                        <option value="Japan">Japan</option>
+                        <option value="Africa">Africa</option>
+                        <option value="Philippines">Philippines</option>
+                        <option value="Taiwan">Taiwan</option>
+                        <option value="Vientam">Vietnam</option>
+                        <option value="Tonga">Tonga</option>
+                        <option value="Samoa">Samoa</option>
+                        <option value="Tahiti">Tahiti</option>
+                        <option value="Hongkong">Hongkong</option>
+                        <option value="Kiribas">Kiribas</option>
+                        <option value="Others">Other</option>
+                        
+                    </select>
+                </div>
+
+                <div class="form">
+                    <input type="checkbox" id="agree" name="agree" required>
+                    <label for="agree">I agree to the terms and conditions</label>
+                </div>
+
+                <button type="submit">Submit</button>
+            </fieldset>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Zach Cauilan.</p>
+    </footer>
+</body>
+</html>
