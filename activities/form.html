@@ -61,5 +61,16 @@
     <footer>
         <p>&copy;2024 Third Baliwas</p>
     </footer>
+    <script>
+                document.getElementById('myForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            alert("Hello");
+            const first = document.getElementById('firstName').value;
+            const last = document.getElementById('last').value;
+            console.log(first);
+            console.log(last);
+            alert("Form Submitted");
+        })
+    </script>
 </body>
 </html>
