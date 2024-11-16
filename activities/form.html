@@ -62,15 +62,27 @@
         <p>&copy;2024 Zach Cauilan</p>
     </footer>
     <script>
-                document.getElementById('myForm').addEventListener('submit', function(event) {
-            event.preventDefault();
-            alert("Hello");
-            const first = document.getElementById('firstName').value;
-            const last = document.getElementById('last').value;
-            console.log(first);
-            console.log(last);
-            alert("Form Submitted");
-        })
+    document.getElementById('myForm').addEventListener('submit' , function(event){
+         event.preventDefault();
+         const first = document.getElementById('firstName').value;
+         const last = document.getElementById('lastName').value;
+         const age = document.getElementById('age').value;
+         if (!firstname || !lastname) {
+            alert('First Name and Last Name cannot be blank.');
+            return;
+         }
+
+         const formData = {
+            firstname: firstName,
+            lastName: lastName,
+            password: document.getElementById('password').value,
+            state: document.getElementById('state').value
+         };
+
+         alert("Success!")
+         console.log(formData);
+    });
+    
     </script>
 </body>
 </html>
