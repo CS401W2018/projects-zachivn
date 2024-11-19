@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="processing.css">
+    <title>Form Project</title>
+</head>
+<body>
+    <header><h1>Club Membership Registration Form</h1></header>
+    <main>
+        <form id="userForm" method="post">
+            <fieldset>
+                <legend>Register</legend>
+
+                <div class="form">
+                    <label for="first">First Name:</label>
+                    <input type="text" id="first" name="first" placeholder="Zach" required>
+                </div>
+                <div class="form">
+                    <label for="lname">Last Name:</label>
+                    <input type="text" id="lname" name="last" placeholder="Last Name">
+                </div>
+
+                <div class="form">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+
+                <div class="form">
+                    <label for="ID">Student ID:</label>
+                    <input type="ID" name="ID" id="ID" placeholder="Enter your ID" required>
+                </div>
+
+                <div class="form">
+                    <label for="Club">Club:</label>
+                    <select id="Club" name="Club">
+                        <option value="">-- Select Club --</option>
+                        <option value="Japan">Japan</option>
+                        <option value="Africa">Africa</option>
+                        <option value="Philippines">Philippines</option>
+                        <option value="Taiwan">Taiwan</option>
+                        <option value="Vientam">Vietnam</option>
+                        <option value="Tonga">Tonga</option>
+                        <option value="Samoa">Samoa</option>
+                        <option value="Tahiti">Tahiti</option>
+                        <option value="Hongkong">Hongkong</option>
+                        <option value="Kiribas">Kiribas</option>
+                        <option value="Others">Other</option>
+                        
+                    </select>
+                </div>
+
+                <div class="form">
+                    <label for="bio">Bio:</label>
+                    <textarea id="bio" name="bio" placeholder="Tell us something about yourself"></textarea>
+                </div>
+
+                <div class="form">
+                    <input type="submit" value="Submit">
+                </div>
+            </fieldset>
+        </form>
+    </main>
+    <footer>&copy; 2024 Zach Cauilan</footer>
+    <script src="processing.js"></script>
+</body>
+</html>
