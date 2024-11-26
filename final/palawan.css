@@ -1,0 +1,89 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e3f2fd; /* Light blue background */
+    color: #0d47a1; /* Dark blue text */
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #1976d2; /* Medium blue */
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+nav {
+    background-color: #1565c0; /* Darker blue */
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    display: inline-block;
+}
+
+nav a:hover, nav a.current {
+    background-color: #0d47a1; /* Darkest blue */
+    border-radius: 5px;
+}
+
+h1, h2 {
+    color: #0d47a1;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1em 0;
+}
+
+table th, table td {
+    border: 1px solid #1976d2;
+    padding: 0.5em;
+    text-align: left;
+}
+
+table th {
+    background-color: #bbdefb; /* Light blue */
+    color: #0d47a1;
+}
+
+form {
+    background: white;
+    padding: 1em;
+    margin: 1em auto;
+    border: 1px solid #1976d2;
+    border-radius: 5px;
+    max-width: 400px;
+}
+
+form input, form textarea, form button {
+    width: 100%;
+    margin-bottom: 1em;
+    padding: 0.5em;
+    border: 1px solid #1976d2;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #1976d2;
+    color: white;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #1565c0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav a {
+        display: block;
+        margin: 0.5em 0;
+    }
+}
