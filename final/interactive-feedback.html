@@ -20,26 +20,46 @@
         </nav>
     </header>
     <main>
-        <h2>Share Your Experience</h2>
-        <form>
+        <form id="feedback-form">
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required>
-            
+        
             <label for="email">Email:</label>
             <input type="email" id="email" name="email" required>
-            
+        
             <label for="visit-date">Date of Visit:</label>
             <input type="date" id="visit-date" name="visit-date">
-            
-            <label for="comments">Share your experience:</label>
-            <textarea id="comments" name="comments"></textarea>
-            
+        
+            <label for="comments">Comments:</label>
+            <textarea id="comments" name="comments" required></textarea>
+        
             <button type="submit">Submit</button>
         </form>
+        
+        <script>
+            document.getElementById('feedback-form').addEventListener('submit', function(event) {
+                event.preventDefault();
+                const name = document.getElementById('name').value;
+                const email = document.getElementById('email').value;
+        
+                if (!name || !email) {
+                    alert('Please fill out all required fields.');
+                    return;
+                }
+        
+                alert(`Thank you, ${name}, for your feedback!`);
+                window.location.href = 'confirmation.html';
+            });
+        </script>
         
     </main>
     <footer>
         <p>&copy; 2024 Zach Cauilan</p>
+        <nav>
+            <a href="privacy.html">Privacy Policy</a> |
+            <a href="terms.html">Terms of Service</a> |
+            <a href="contact.html">Contact Us</a>
+        </nav>
     </footer>
 </body>
 </html>

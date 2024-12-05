@@ -4,6 +4,8 @@ body {
     color: #0d47a1;
     margin: 0;
     padding: 0;
+    text-align: center;
+    line-height: 1.6;
 }
 
 header, footer {
@@ -18,11 +20,20 @@ nav {
     text-align: center;
 }
 
+nav a.current {
+    font-weight: bold;
+    text-decoration: underline;
+    background-color: #007BFF;
+    color: white;
+}
+
+
 nav a {
     color: white;
     text-decoration: none;
-    padding: 0.5em 1em;
+    padding: 10px;
     display: inline-block;
+    margin: 0 10px;
 }
 
 nav a:hover, nav a.current {
@@ -31,9 +42,10 @@ nav a:hover, nav a.current {
 }
 
 h1, h2 {
-    color: #0d47a1;
+    color: black;
     text-align: center;
 }
+
 
 table {
     width: 100%;
@@ -75,15 +87,18 @@ form button {
     cursor: pointer;
 }
 
+
 form button:hover {
     background-color: #1565c0;
 }
 
 @media (max-width: 768px) {
     nav a {
-        display: block;
+        display: flex;
         margin: 0.5em 0;
+        flex-direction: column;
     }
-
     
 }
+
+
